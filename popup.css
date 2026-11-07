@@ -1,0 +1,2 @@
+body { width: 270px; padding: 14px; color: #eee; background: #202124; font: 14px system-ui; }
+label { display: flex; gap: 8px; margin: 16px 0 4px; font-weight: 600; cursor: pointer; } .hint { display: block; margin: 0 0 16px 24px; } button { padding: 8px 12px; cursor: pointer; } small { color: #aaa; } #status { color: #ffcf8b; }

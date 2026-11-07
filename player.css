@@ -1,0 +1,7 @@
+html.yt-full-height, html.yt-full-height body { margin: 0 !important; overflow: hidden !important; background: #000 !important; }
+html.yt-full-height body * { visibility: hidden !important; }
+html.yt-full-height #movie_player, html.yt-full-height #movie_player * { visibility: visible !important; }
+html.yt-full-height #movie_player { position: fixed !important; inset: 0 !important; width: 100vw !important; height: 100vh !important; z-index: 2147483646 !important; }
+html.yt-full-height #movie_player .html5-video-container { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; }
+html.yt-full-height #movie_player video { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; object-fit: contain !important; }
+html.yt-full-height #movie_player .ytp-chrome-bottom { width: calc(100% - 24px) !important; left: 12px !important; }

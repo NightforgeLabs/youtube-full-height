@@ -1,0 +1,23 @@
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Browser extension packages and build output
+*.crx
+*.zip
+*.map
+dist/
+build/
+node_modules/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
